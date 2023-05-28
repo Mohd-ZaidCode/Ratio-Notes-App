@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C2A4FE"
+    android:padding="16dp"
+    tools:context=".NotesDetail"
+    >
+
+    <ImageView
+        android:layout_width="526dp"
+        android:layout_height="437dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-81dp"
+        android:src="@drawable/page" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleBar">
+
+        <TextView
+            android:id="@+id/page_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Add Notes"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/savenote"
+            android:layout_width="94dp"
+            android:layout_height="53dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_download_done_24"
+            app:tint="@color/black" />
+            
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="401dp"
+        android:layout_below="@+id/TitleBar"
+        android:layout_marginVertical="26dp"
+        android:background="@drawable/createprof"
+        android:backgroundTint="#FFEB3B"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/notestitle"
+            android:layout_width="341dp"
+            android:layout_height="84dp"
+            android:layout_marginVertical="12dp"
+            android:fontFamily="monospace"
+            android:hint="Title"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/contentEt"
+            android:layout_width="426dp"
+            android:layout_height="199dp"
+            android:layout_gravity="top"
+            android:layout_marginVertical="12dp"
+            android:fontFamily="monospace"
+            android:hint="Content"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_note_text_view_btn"
+        android:text="Delete note"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="#FF0000"/>
+
+</RelativeLayout>

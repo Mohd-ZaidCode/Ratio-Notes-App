@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "756827595940",
+    "project_id": "ratio-notes",
+    "storage_bucket": "ratio-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756827595940:android:b1031a7451de1ccadbb231",
+        "android_client_info": {
+          "package_name": "com.example.rationotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756827595940-ietg5mp1jg53j2dq4qbvnblbo13h6675.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7SKpjD_yUgWkPiGy6Dt8wM868LT2p1WM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756827595940-ietg5mp1jg53j2dq4qbvnblbo13h6675.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
